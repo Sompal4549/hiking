@@ -50,9 +50,19 @@
         <div class="top"></div>
         <div class="bottom"></div>
         <div class="content">
-          <h1 class="heading">
-            IT'S TIME FOR HIKING
-          </h1>
+          <h1 class="heading">IT'S TIME FOR HIKING</h1>
+          <strong>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
+            deserunt.
+          </strong>
+          <button type="submit" class="home-button" onclick="locationHandler()">
+            READ MORE
+          </button>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat
+            dicta molestiae illo quas laudantium. Delectus modi nostrum facilis
+            enim quaerat!
+          </p>
         </div>
       </section>
     </main>
@@ -65,6 +75,9 @@
         setInterval(() => {
           window.location.reload();
         }, 3000);
+      }
+      function locationHandler() {
+        document.location = "https://www.google.com";
       }
     </script>
   </body>
