@@ -94,6 +94,7 @@ ul a {
   background-size: 120%;
   background-position: top;
   object-fit: cover;
+  background-repeat: no-repeat;
 }
 .top {
   position: absolute;
@@ -146,5 +147,41 @@ section {
   max-width: 250px;
   font-weight: 500;
 }
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1100px) {
+  .content h1 {
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .content h1 {
+    font-size: 4rem;
+  }
+  .content strong {
+    font-size: 1.7rem;
+  }
+  .content p {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .content {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .top {
+    top: -28px;
+  }
+  .bottom{
+    bottom: -32px;
+  }
+  .content h1 {
+    font-size: 4rem;
+  }
+  .content strong {
+    font-size: 1.5rem;
+  }
+  .content p {
+    font-size: 1rem;
+  }
 }
